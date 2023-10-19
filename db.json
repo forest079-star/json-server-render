@@ -1,11 +1,55 @@
-{"users": [
-    
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ryan"
+    },
+    {
+      "id": 2,
+      "name": "Joe"
+    }
   ],
   "posts": [
-    { "id": 1, "title": "json-server0915", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "json-server3",
+      "userId": 2
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    {
+      "id": 1,
+      "body": "Ryan 的留言",
+      "postId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "body": "Joe  的留言",
+      "postId": 2,
+      "userId": 2
+    },
+    {
+      "body": "今天天氣寒冷",
+      "userId": 2,
+      "postId": "1",
+      "id": 3
+    },
+    {
+      "body": "今天肚子很餓",
+      "userId": 2,
+      "postId": "2",
+      "id": 4
+    }
+  ]
 }
